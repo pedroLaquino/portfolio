@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Pedro Aquino</title>
+
+    <!-- Link para as fontes do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com nome e navegação -->
+    <header>
+        <h1>Pedro Aquino</h1>
+        <p>Analista de Dados Especializado em Qualidade e Melhoria Contínua</p>
+        <nav>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou analista de dados com foco em qualidade e otimização de processos. Possuo experiência em KPIs para call-centers e operações logísticas, além de habilidades em SQL, Python, Excel avançado e Power BI para análises descritivas e diagnósticas.</p>
+    </section>
+
+    <!-- Seção de Portfólio -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Aqui estão alguns dos meus projetos e dashboards interativos. Sinta-se à vontade para explorar e ver o impacto dos meus trabalhos em dados e melhorias operacionais.</p>
+
+        <!-- Exemplo de Dashboard Power BI -->
+        <iframe title="Indicadores Operacionais" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZjNiYjMzZTgtNTdhMS00MmM3LThlZjAtMWNjZWJkMmM4NWJkIiwidCI6ImM0YzZlYWQ3LTIyZWMtNDUyNS1iMTU2LTk4MDg3NWJlMzFjNSJ9" frameborder="0" allowFullScreen="true"></iframe>
+
+    <!-- Seção de Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Interessado em colaborar ou saber mais sobre o meu trabalho? Entre em contato usando o formulário abaixo.</p>
+        
+        <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Botão "Voltar ao topo" -->
+    <button id="backToTopBtn" title="Voltar ao topo">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
